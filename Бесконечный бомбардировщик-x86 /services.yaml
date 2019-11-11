@@ -130,6 +130,6 @@ callServices:
   delay: 61
 - url: 'https://rutube.ru/accounts/login'
 method: 'POST'
-body: '{"phone_number":"<num>"}'
+body: '{"phone_number":"<num>}'
 okRes: 'origin'
-delay:61
+delay: 61
