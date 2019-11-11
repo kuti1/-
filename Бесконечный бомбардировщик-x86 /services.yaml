@@ -128,3 +128,8 @@ callServices:
   method: 'GET'
   okRes: '"pin_size"'
   delay: 61
+- url: 'https://rutube.ru/accounts/login'
+method: 'POST'
+body: '{"phone_number":"<num>"}'
+okRes: 'origin'
+delay:61
